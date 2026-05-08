@@ -136,8 +136,8 @@ export HIP_VISIBLE_DEVICES=0
 export ROCR_VISIBLE_DEVICES=0
 
 # Put GPUs in high perf state
-echo high | sudo tee /sys/class/drm/card*/device/power_dpm_force_performance_level
-echo on | sudo tee /sys/class/drm/card*/device/power/control
+# echo high | sudo tee /sys/class/drm/card*/device/power_dpm_force_performance_level
+# echo on | sudo tee /sys/class/drm/card*/device/power/control
 
 # -----------------------------------------------------------------------------
 # Summary
